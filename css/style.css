@@ -235,9 +235,10 @@
 /* section02 */
 
 .section02{
-    height: 1500px;
+    height: 1250px;
     background: url('../img/back01.jpg') no-repeat;
     background-size: cover;
+    background-position: bottom;
 }
 
 .se02{
@@ -494,13 +495,13 @@ border-radius: 15px;
 
 /* section06 */
 .section06{
-    height:700px;
+    height:550px;
     background: url('../img/back05.jpg') no-repeat;
     background-size: cover;
 }
 
 .se06{
-    padding: 100px 20px;
+    padding: 50px 20px;
     height: 100%;
     box-sizing: border-box;
 }

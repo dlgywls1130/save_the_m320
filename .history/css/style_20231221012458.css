@@ -1,0 +1,648 @@
+
+/* root */
+:root{
+    --main-color:#B17A60;
+    --pink-color:#F79497;
+}
+
+
+/* font */
+
+/* dongle */
+@font-face {
+    font-family: 'Dongle';
+    font-weight: 300;
+    src: url('../font/Dongle-Light.ttf') format('ttf'),
+    url('../font/Dongle-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Dongle';
+    font-weight: 500;
+    src: url('../font/Dongle-Regular.ttf') format('ttf'),
+    url('../font/Dongle-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Dongle';
+    font-weight: 700;
+    src: url('../font/Dongle-Bold.ttf') format('ttf'),
+    url('../font/Dongle-Bold.woff') format('woff');
+}
+
+
+/* Gmarket */
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    src: url('../font/GmarketSansLight.ttf') format('ttf'),
+    url('../font/GmarketSansLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    src: url('../font/GmarketSansMedium.ttf') format('ttf'),
+    url('../font/GmarketSansMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    src: url('../font/GmarketSansBold.ttf') format('ttf'),
+    url('../font/GmarketSansBold.woff') format('woff');
+}
+
+
+/* nanumsqure */
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-weight: 400;
+    src: url('../font/NanumSquareL.ttf') format('ttf'),
+    url('../font/NanumSquareL.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-weight: 500;
+    src: url('../font/NanumSquareR.ttf') format('ttf'),
+    url('../font/NanumSquareR.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-weight: 600;
+    src: url('../font/NanumSquareB.ttf') format('ttf'),
+    url('../font/NanumSquareB.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    font-weight: 700;
+    src: url('../font/NanumSquareEB.ttf') format('ttf'),
+    url('../font/NanumSquareEB.woff') format('woff');
+}
+
+
+
+/* scdream5 */
+@font-face {
+    font-family: 'SCDream5';
+    src: url('../font/SCDream5.woff') format('woff'),
+    url('../font/SCDream5.ttf') format('ttf'),
+    url('../font/SCDream5.otf') format('otf');
+}
+
+
+.section_wrapper{
+    max-width:320px;
+    width: 100%;
+
+}
+
+.se_wrapper{
+    max-width: 320px;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+/* section01 */
+
+
+.section01{
+    background: url(../img/back01.jpg) no-repeat;
+    height: 1000px;
+    background-size: cover;
+    background-position: 86%;
+}
+
+.se01{
+    padding: 60px 20px;
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.se01_sub{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.sub_logo{
+    width: 125px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.sub_logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.se01_sub p{
+    width: 190px;
+    height: 30px;
+    background: #B17A60;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: -0.03em;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'GmarketSans',sans-serif;
+    color: #fff;
+}
+
+.seo01_title{
+    font-family: 'Dongle',sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    color: var(--main-color);
+    letter-spacing: -0.03em;
+    text-align: center;
+}
+
+.seo01_title_two{
+    font-family: 'Dongle',sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: var(--main-color);
+    letter-spacing: -0.03em;
+    margin-top: -7%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.seo01_title_two span{
+    margin: 0 0.5rem;
+}
+.section_descript{
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    color: #000;
+    text-align: center;
+}
+
+.donation_link{
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--pink-color);
+    color: #fff;
+    font-family: 'GmarketSans';
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    margin: 40px auto 0;
+}
+
+
+@keyframes roll {
+    from {
+        transform: translateY(40%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  }
+  
+
+  #rollingText.animate-text {
+    animation: roll 0.5s ease-in-out;
+}
+
+/* section02 */
+
+.section02{
+    height: 940px;
+    background: url('../img/back02.jpg') no-repeat;
+}
+
+.se02{
+    box-sizing: border-box;
+    height: 100%;
+}
+.postit_wrapper{
+    width: 100%;
+    padding: 40px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.ex_text{
+    font-family: 'GmarketSans';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+
+.postit p img{
+    width: 15px;
+    height: auto;
+    object-fit: contain;
+}
+.postit p{
+    font-family: 'SCDream5';
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.postit01{
+    background:url('../img/post04.png') no-repeat;
+    width: 285px;
+    height: 300px;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.postit01 p{
+    transform: rotate(358deg);
+}
+
+.postit02{
+    background: url('../img/post05.png') no-repeat;
+    width: 285px;
+    height: 300px;
+    background-size: contain;
+    box-sizing: border-box;
+    margin-top: -27%;
+}
+
+.postit02 p{
+    transform: rotate(7deg);
+}
+
+.postit03{
+    background:url('../img/post02.png') no-repeat;
+    width: 285px;
+    height: 300px;
+    background-size: contain;
+    box-sizing: border-box;
+    margin-top: -25%;
+    transform: rotate(-14deg);
+}
+
+.postit03 p{
+    transform: rotate(-7deg);
+}
+
+.postit04{
+    background: url(../img/post03.png) no-repeat;
+    width: 285px;
+    height: 300px;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-top: -24%;
+    transform: rotate(14deg);
+}
+
+.postit04 p{
+    transform: rotate(7deg);
+}
+
+.postit05{
+    background:url('../img/post01.png') no-repeat;
+    width: 285px;
+    height: 300px;
+    background-size: contain;
+    box-sizing: border-box;
+    margin-top: -22%;
+}
+
+.postit05 p{
+    transform: rotate(-9deg);
+}
+
+/* section03 */
+
+.section03{
+    height: 1200px;
+    background: url('../img/back03.jpg') no-repeat;
+}
+
+.se03{
+    padding: 100px 20px 70px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+.se_title_co{
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    font-family: 'Dongle';
+    font-weight: 500;
+    color: var(--main-color);
+    text-align: center;
+}
+
+.se_sub_co{
+    font-size: 15px;
+    letter-spacing: -0.03em;
+    line-height: 25px;
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* section04 */
+
+.section04{
+    height: 1180px;
+    background: url('../img/back04.jpg') no-repeat;
+}
+
+.se04{
+    padding: 90px 20px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.se04_slide{
+    margin: 60px auto 0;
+}
+
+
+.se04_slide_list{
+    width: 280px;
+    height: 240px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.se04_slide_list img{
+    width:100%;
+height: 100%;
+object-fit: cover;
+border-radius: 15px;
+}
+/* section05 */
+.section05{
+    height: 1000px;
+    background: url('../img/back05.jpg') no-repeat;
+}
+
+.se05{
+    padding: 80px 60px 140px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.se_step_list{
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.se_step_list .se_step{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step_number{
+    font-size: 25px;
+    letter-spacing: -0.03em;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: 'GmarketSans';
+    position: absolute;
+    left: 19%;
+    top: 0;
+    color: var(--main-color);
+    z-index: 2;
+}
+
+.se_step_list .se_step .step_ico{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.se_step_list .se_step .step_ico img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: 73%;
+}
+
+.step_descript{
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 23px;
+    font-weight: 500;
+    font-family: 'GmarketSans';
+    text-align: center;
+    margin-top: 20px;
+    color: var(--main-color);
+}
+
+
+.section05 .donation_link{
+    margin: 70px auto 0;
+}
+
+
+/* section06 */
+.section06{
+    height:800px;
+    background: url('../img/back06.jpg') no-repeat;
+}
+
+.se06{
+    padding: 155px 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.se_sub_co span{
+    font-weight: 700;
+}
+/* section07 */
+
+.section07{
+    height:1000px;
+    background: url('../img/back07.jpg') no-repeat;
+}
+
+.se07{
+    padding: 100px 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.accordion{
+    margin-top: 38px;
+}
+.accordion-item {
+    padding:15px 30px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.accordion-item .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: var(--main-color);
+    padding: 0 50px;
+    font-family: 'GmarketSans';
+    box-sizing: border-box;
+    text-indent: -10px;
+}
+
+.accordion-item .title img {
+    font-size: 0.9rem;
+    color: #454545;
+    transform: rotate(0);
+    transition: transform 0.15s ease;
+}
+
+.accordion-item .paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #000;
+    display: none;
+    padding: 30px 35px 15px;
+    list-style: inside;
+    line-height: 30px;
+    font-family: 'GmarketSans';
+}
+
+.accordion-item .paragraph .indent{
+    text-indent: 1rem;
+}
+
+
+.accordion-item .paragraph span{
+    font-weight: bold;
+}
+
+.accordion-item.active .title img{
+    transform: rotate(180deg);
+}
+
+.accordion-item.active .paragraph {
+    display: block;
+}
+
+
+/* section08 */
+
+.section08{
+    height:500px;
+    background: url('../img/banner.jpg') no-repeat;
+}
+.se08{
+    position: relative;
+    height: 100%;
+}
+
+.se08_postion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.se08_title{
+    font-family: 'NanumSquare';
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -0.05em;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.se08_descript{
+    font-family: 'NanumSquare';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+.more_btn{
+    margin-top: 38px;
+    width: 150px;
+    height: 40px;
+    background: #543F2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.more_btn p{
+    font-family: 'NanumSquare';
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.more_btn svg{
+    fill: #fff;
+}

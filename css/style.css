@@ -246,7 +246,8 @@
 }
 .postit_wrapper{
     width: 100%;
-    padding: 40px 20px;
+    height: 100%;
+    padding:50px 20px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -281,7 +282,7 @@
 
 .postit01{
     background:url('../img/post04.png') no-repeat;
-    width: 285px;
+    width: 290px;
     height: 300px;
     background-size: contain;
     box-sizing: border-box;
@@ -293,11 +294,11 @@
 
 .postit02{
     background: url('../img/post05.png') no-repeat;
-    width: 285px;
+    width: 300px;
     height: 300px;
     background-size: contain;
     box-sizing: border-box;
-    margin-top: -27%;
+    margin-top: -13%;
 }
 
 .postit02 p{
@@ -334,11 +335,11 @@
 
 .postit05{
     background:url('../img/post01.png') no-repeat;
-    width: 285px;
-    height: 300px;
+    width: 300px;
+    height: 315px;
     background-size: contain;
     box-sizing: border-box;
-    margin-top: -22%;
+    margin-top: -19%;
 }
 
 .postit05 p{
@@ -348,7 +349,7 @@
 /* section03 */
 
 .section03{
-    height: 1000px;
+    height: 1100px;
     background: url('../img/back02.jpg') no-repeat;
     background-size: cover;
 }
@@ -383,7 +384,7 @@
 /* section04 */
 
 .section04{
-    height: 1200px;
+    height: 1500px;
     background: url('../img/back03.jpg') no-repeat;
     background-size: cover;
 }
@@ -400,8 +401,8 @@
 
 
 .se04_slide_list{
-    width: 280px;
-    height: 240px;
+    width: 100%;
+    aspect-ratio: 1/0.9;
     border-radius: 9px;
     margin: 0 auto 10px;
 }
@@ -414,7 +415,7 @@ border-radius: 15px;
 }
 /* section05 */
 .section05{
-    height:900px;
+    height:1000px;
     background: url('../img/back04.jpg') no-repeat;
     background-size: cover;
 }
@@ -428,10 +429,10 @@ border-radius: 15px;
 .se_step_list{
     display: flex;
     align-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
     position: relative;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
@@ -493,7 +494,7 @@ border-radius: 15px;
 
 /* section06 */
 .section06{
-    height:600px;
+    height:700px;
     background: url('../img/back05.jpg') no-repeat;
     background-size: cover;
 }
